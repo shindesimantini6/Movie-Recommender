@@ -1,0 +1,8 @@
+pandas
+seaborn
+numpy
+sklearn
+faker
+flask
+pickle
+itertools
