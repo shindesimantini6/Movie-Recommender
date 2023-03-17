@@ -6,3 +6,4 @@ faker
 flask
 # pickle
 # itertools
+gunicorn
