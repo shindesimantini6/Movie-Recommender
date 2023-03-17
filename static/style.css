@@ -1,0 +1,72 @@
+h1{color:rgb(221, 102, 83);
+font-size:40px}
+
+body{
+    width:80%;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+    font-size: small;
+    font-style: italic;
+    font-family: cursive;
+    background-color: bisque;
+    /* background-image: url("index.jpeg"); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+input,button{
+    background-color:silver;
+    padding: 1px;
+    font-size: inherit;
+    font-family: inherit;
+    outline-color: blueviolet;
+}
+
+button{color:darkblue;
+font-style: italic;
+font-size: 20px;
+transition: all 3s;}
+
+button:hover{color: brown;}
+
+input[type=number]{width:80px}
+
+ul{
+    display: inline-block;
+    text-align: left;
+    }
+
+.movies li{
+    padding: 2px;
+    color:rgb(55, 17, 244);
+    font-size:20px
+} /*class selector*/
+
+/* .movies li:nth-child(odd){background-color: grey;}  /*:nth-child() is pseudo selector*/
+/* .movies li:nth-child(even){background-color: white;} */ */
+
+li{color: rgb(0, 139, 2);
+    transition: all 3s;
+    font-size: 20px;
+    font-style: italic;}
+
+a{color: darkblue;
+transition: all 3s;
+font-size: 20px;
+font-style: italic;}
+
+a:hover{color: brown;}
+
+img{height: 30vh;
+    transition: all 2s;}
+
+img:hover{
+    filter: grayscale();
+    /*filter:blur(2px)*/;
+    /*filter: brightness(20%);*/
+    transform: rotate(5deg) scale(1.2);}
+
+
+p,h2{color: aqua;
+font-size: 20px;}
