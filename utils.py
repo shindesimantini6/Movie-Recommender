@@ -17,10 +17,10 @@ from itertools import islice
 
 # movies = pd.read_csv('data/movies.csv') 
 
-with open('/home/shinde/Documents/trainings/Spiced_Academy/Github/tahini-tensor-student-code/spiced_projects/week10/nmf_model1.pkl','rb') as file:
+with open('nmf_model1.pkl','rb') as file:
     loaded_model = pickle.load(file)
 
-Ratings = pd.read_csv("/home/shinde/Documents/trainings/Spiced_Academy/Github/tahini-tensor-student-code/spiced_projects/week10/Ratings.csv")
+Ratings = pd.read_csv("Ratings.csv")
 
 def movie_to_id(string_titles):
     '''
