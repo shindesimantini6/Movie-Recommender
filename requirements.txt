@@ -4,5 +4,5 @@ numpy
 sklearn
 faker
 flask
-pickle
+# pickle
 itertools
